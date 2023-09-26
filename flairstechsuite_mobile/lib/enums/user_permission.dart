@@ -1,0 +1,1 @@
+enum UserPermission { superAdmin, admin, manager, employee }
