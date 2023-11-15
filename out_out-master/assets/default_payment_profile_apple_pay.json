@@ -1,0 +1,24 @@
+{
+  "provider": "apple_pay",
+  "data": {
+    "merchantIdentifier": "merchant.com.outout.ios",
+    "displayName": "Sam's Fish",
+    "merchantCapabilities": [
+      "3DS",
+      "debit",
+      "credit"
+    ],
+    "supportedNetworks": [
+      "visa",
+      "masterCard"
+    ],
+    "countryCode": "AE",
+    "currencyCode": "AED",
+    "requiredBillingContactFields": [
+      "emailAddress",
+      "name"
+    ],
+    "requiredShippingContactFields": [],
+    "shippingMethods": []
+  }
+}

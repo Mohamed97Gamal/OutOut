@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "215122111385",
+    "project_id": "out-out-staging",
+    "storage_bucket": "out-out-staging.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215122111385:android:8c0fc6175acbe59dcb0108",
+        "android_client_info": {
+          "package_name": "com.outout.mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215122111385-5u0sajcimk2vfo360pfpdm5sbn17p63s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.outout.mobile",
+            "certificate_hash": "94ad284d6a914b55ec330d8571979a1e0fd6ebcc"
+          }
+        },
+        {
+          "client_id": "215122111385-lrlpkb9fe9g6klauquis2qs2b21uj0rg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCw1R88S5BGXIoVvDnoASUQ_KnJhpd3lU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215122111385-lrlpkb9fe9g6klauquis2qs2b21uj0rg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
