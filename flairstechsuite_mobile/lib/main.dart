@@ -49,7 +49,11 @@ class MyHttpOverrides extends HttpOverrides {
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  try {
+    await Firebase.initializeApp();
+  } catch (e) {
+    print("Error initializing Firebase: $e");
+  }
       HttpOverrides.global = MyHttpOverrides();
   FirebaseCrashlytics.instance.setCrashlyticsCollectionEnabled(true);
   Connectivity().onConnectivityChanged.listen((event) {
